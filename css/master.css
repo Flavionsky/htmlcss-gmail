@@ -1,0 +1,77 @@
+*{
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+.container{
+  width: 60%;
+  margin: auto;
+  color: white;
+}
+#logo-text{
+  padding: 10px;
+}
+#logo{
+  width: 125px;
+  height:100px;
+  /* permetto di centrare il contenitore affianco ad esso */
+  vertical-align: middle;
+
+}
+#text-name{
+  font-size: 26px;
+  padding-left: 10px;
+}
+hr{
+  border-bottom: 1px solid white;
+}
+#unread-mail{
+  line-height: 60px;
+  font-size: 40px;
+  padding: 10px 0 10px 0;
+}
+#number-unread{
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: orange;
+}
+.row{
+  background-color: lightgrey;
+  color: black;
+  font-size: 20px;
+  border:1px solid black;
+}
+.unread{
+  background-color: white;
+}
+.object , .object > form {
+  /* rendo possibile affiancare gli elementi di tipo block su tutta la row */
+    display: inline-block;
+}
+.star:before{
+  content: "\2605"
+}
+.mail-text{
+  color: rgba(128,128,128,0.7);
+}
+footer{
+  /* allineo centralmente tutto il footer */
+  text-align: center;
+  padding: 5px;
+
+}
+  footer > strong{
+    font-size: 30px;
+    font-style: arial;
+
+  }
+  footer > span {
+    font-size: 15px;
+    font-style: italic;
+  }
